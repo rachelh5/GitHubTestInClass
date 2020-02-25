@@ -13,10 +13,16 @@ int main()
     power(10, 1);
     power(10, 0);
 
+    
+
     return 0;
 }
 //--
+<<<<<<< Updated upstream
 void power(int base, int exp)
+=======
+int power(double base, int exp)
+>>>>>>> Stashed changes
 {
     int result = 1;
     for(int i = 0;i < exp;i++)
@@ -24,5 +30,9 @@ void power(int base, int exp)
         result = result * base;
     }
 
+<<<<<<< Updated upstream
     cout<<result<<endl;
+=======
+    return result;
+>>>>>>> Stashed changes
 }
