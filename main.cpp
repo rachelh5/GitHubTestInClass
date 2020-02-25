@@ -6,8 +6,8 @@ void power(int base, int exp);
 
 int main()
 {
-    cout<<"GitHub Test"<<endl;
-    
+    cout << "GitHub Test" << endl;
+
     power(10, 2);
     power(5, 3);
     power(10, 1);
@@ -16,13 +16,13 @@ int main()
     return 0;
 }
 //--
-void power(int base, int exp)
+void power(double base, int exp)
 {
     int result = 1;
-    for(int i = 0;i < exp;i++)
+    for (int i = 0; i < exp; i++)
     {
         result = result * base;
     }
 
-    cout<<result<<endl;
+    cout << result << endl;
 }
